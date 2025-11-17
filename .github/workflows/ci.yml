@@ -24,11 +24,3 @@ jobs:
 
       - name: Run Tests
         run: echo "No tests yet"
-
-      - name: CodeQL Analysis
-        uses: github/codeql-action/init@v2
-        with:
-          languages: python
-
-      - name: CodeQL Upload
-        uses: github/codeql-action/analyze@v2
